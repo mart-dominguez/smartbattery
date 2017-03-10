@@ -1,0 +1,327 @@
+[
+    {
+        "etiqueta": "Iapp (A/cm^2)",
+        "clave": "iapp",
+        "valor": 0.0002330,
+        "esInput": true
+    },
+    {
+        "etiqueta": "Dt",
+        "clave": "dt",
+        "valor": 4,
+        "esInput": true
+    },
+    {
+        "etiqueta": "CSAmax (mol/cm^3)",
+        "clave": "csamax",
+        "valor": 0.030555,
+        "esInput": true
+    },
+    {
+        "etiqueta": "CSCmax (mol/cm^3)",
+        "clave": "ccamax",
+        "valor": 0.022806,
+        "esInput": true
+    },
+    {
+        "etiqueta": "eLA",
+        "clave": "ela",
+        "valor": 0.58,
+        "esInput": true
+    },
+    {
+        "etiqueta": "ePA",
+        "clave": "epa",
+        "valor": 0.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "eFA",
+        "clave": "efa",
+        "valor": 0.04,
+        "esInput": true
+    },
+    {
+        "etiqueta": "eLS",
+        "clave": "els",
+        "valor": 0.55,
+        "esInput": true
+    },
+    {
+        "etiqueta": "ePS",
+        "clave": "eps",
+        "valor": 0.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "eLC",
+        "clave": "elc",
+        "valor": 0.374,
+        "esInput": true
+    },
+    {
+        "etiqueta": "ePC",
+        "clave": "epc",
+        "valor": 0.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "eFC",
+        "clave": "efc",
+        "valor": 0.053,
+        "esInput": true
+    },
+    {
+        "etiqueta": "eSA",
+        "clave": "esa",
+        "valor": 0.0,
+        "esInput": false,
+        "formula": "1-eLA-ePA-eFA"
+    },
+    {
+        "etiqueta": "eSC",
+        "clave": "esc",
+        "valor": 0.0,
+        "esInput": false,
+        "formula": "1-eLC-ePC-eFC"
+    },
+    {
+        "etiqueta": "SigmaA0",
+        "clave": "sigmaa0",
+        "valor": 1.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "SigmaC0",
+        "clave": "sigmac0",
+        "valor": 0.1,
+        "esInput": true
+    },
+    {
+        "etiqueta": "GAMA SigmaA",
+        "clave": "gamaSigmaA",
+        "valor": 1,
+        "esInput": true
+    },
+    {
+        "etiqueta": "GAMA SigmaC",
+        "clave": "gamasigmac",
+        "valor": 1,
+        "esInput": true
+    },
+        {
+        "etiqueta": "SigmaEffA",
+        "clave": "sigmaeffa",
+        "valor": 0.0,
+        "esInput": false,
+        "formula": "sigmaA0*(eSA+eFA)^PSigmaA"
+    },
+    {
+        "etiqueta": "SigmaEffC",
+        "clave": "sigmaeffc",
+        "valor": 0.0,
+        "esInput": false,
+        "formula": "SigmaC0*(eSC+eFC)^PSigmaC"
+    },
+    {
+        "etiqueta": "LA",
+        "clave": "LA",
+        "valor": 0.00340,
+        "esInput": true
+    },
+    {
+        "etiqueta": "LS",
+        "clave": "LS",
+        "valor": 0.00340,
+        "esInput": true
+    },
+    {
+        "etiqueta": "LC",
+        "clave": "LC",
+        "valor": 0.00800,
+        "esInput": true
+    },
+    {
+        "etiqueta": "RSA",
+        "clave": "RSA",
+        "valor": 0.000244,
+        "esInput": true
+    },
+    {
+        "etiqueta": "RSC",
+        "clave": "RSC",
+        "valor": 0.00000482,
+        "esInput": true
+    },
+    {
+        "etiqueta": "PKA",
+        "clave": "PKA",
+        "valor": 1.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "PKS",
+        "clave": "PKS",
+        "valor": 1.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "PKC",
+        "clave": "PKC",
+        "valor": 5.4,
+        "esInput": true
+    },
+    {
+        "etiqueta": "DE",
+        "clave": "DE",
+        "valor": 0.000002,
+        "esInput": true
+    },
+    {
+        "etiqueta": "PDEA",
+        "clave": "PDEA",
+        "valor": 1.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "PDES",
+        "clave": "PDES",
+        "valor": 1.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "PDEC",
+        "clave": "PDEC",
+        "valor": 1.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "DeffA",
+        "clave": "DeffA",
+        "valor": 0.00000116,
+        "esInput": false,
+        "formula": "=+DE*(eLA+ePA)^PDEA"
+    },
+    {
+        "etiqueta": "DeffS",
+        "clave": "DeffS",
+        "valor": 0.0000011,
+        "esInput": false,
+        "formula": "=+DE*(eLS+ePS)^B31"
+    },
+    {
+        "etiqueta": "DeffC",
+        "clave": "DeffC",
+        "valor": 0.000000748,
+        "esInput": false,
+        "formula": "=DE*(eLC+ePC)^PDEC"
+    },{
+        "etiqueta": "CA0 (mol/cm^3)",
+        "clave": "CA0",
+        "valor": 0.0012,
+        "esInput": true
+    },
+    {
+        "etiqueta": "CS0 (mol/cm^3)",
+        "clave": "CS0",
+        "valor": 0.0012,
+        "esInput": true
+    },
+    {
+        "etiqueta": "CC0 (mol/cm^3)",
+        "clave": "CC0",
+        "valor": 0.0012,
+        "esInput": true
+    },
+    {
+        "etiqueta": "CSA0 in (mol/cm^3)",
+        "clave": "CSA0",
+        "valor": 0.0000011,
+        "esInput": false,
+        "formula": "=+CSAmax*C39/10000"
+    },
+    {
+        "etiqueta": "CSC0 in (mol/cm^3)",
+        "clave": "CSC0",
+        "valor": 0.000000748,
+        "esInput": false,
+        "formula": "=+CSCmax*C40/10000"
+    },
+    {
+        "etiqueta": "Dif S A",
+        "clave": "Dif S A",
+        "valor": 0.0000000000300000,
+        "esInput": true
+    },
+    {
+        "etiqueta": "Dif S C",
+        "clave": "Dif S C",
+        "valor": 0.0000000000000006,
+        "esInput": true
+    },
+    {
+        "etiqueta": "ntpte",
+        "clave": "ntpte",
+        "valor": 0.363,
+        "esInput": true
+    },
+    {
+        "etiqueta": "kA (A cm^2,5 / mol^1,5)",
+        "clave": "kA (A cm^2,5 / mol^1,5)",
+        "valor": 0.0,
+        "esInput": false,
+        "formula": "=0,5/(  (  CSAmax-B39)^0,5*(B39*B36)^0,5)*(1/100)^2"
+    },
+    {
+        "etiqueta": "kC  (A cm^2,5 / mol^1,5)",
+        "clave": "Dif S C",
+        "valor": 0.0,
+        "esInput": false,
+        "formula": "=0,05/(  (  CSCmax-B40)^0,5*(B40*B38)^0,5)*(1/100)^2"
+    },
+    {
+        "etiqueta": "T",
+        "clave": "T",
+        "valor": 298.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "Atr",
+        "clave": "Atr",
+        "valor": 1.0,
+        "esInput": true
+    },
+    {
+        "etiqueta": "Vs",
+        "clave": "Vs",
+        "valor": 1.0,
+        "esInput": true
+    },
+] 	
+
+LamdaA	6,82353E-04
+LamdaS	8,80000E-04
+LamdaC	1,87000E-04
+alfaAn	
+alfaCn	
+AtreA	0,58
+AtreS	0,55
+AtreC	0,374
+VOLeA	0,001972
+VOLeS	0,001375
+VOLeC	0,002992
+VOLsA	0,001292
+VOLsC	0,004584
+AesA	15,8852459
+AesC	2853,112033
+gamaA	1,054545455
+gamaC	0,68
+DA	0,000375394
+DC	0,00016339
+wA	
+wC	
+jA	1,52019E-10
+jC	8,46394E-13
+t descarga	14222,38516
+
+]

@@ -58,7 +58,7 @@ public class Solver {
     
     public Double sigmaEffA(){
         //=+sigmaA0*(eSA+eFA)^PSigmaA
-        return calcular("sigmaA0")* ((eSAnodo()*calcular("EFA")));
+        return calcular("sigmaA0")* Math.pow(((eSAnodo()*calcular("EFA")));
         
     }
 }
